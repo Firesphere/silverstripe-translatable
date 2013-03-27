@@ -4,7 +4,8 @@
  */
 class TranslatableCMSMainExtension extends Extension {
 
-	private static $allowed_actions = array(
+	// error: Fatal error: Access level to TranslatableCMSMainExtension::$allowed_actions must be public (as in class Extension) 
+	public static $allowed_actions = array(
 		'createtranslation',
 	);
 
